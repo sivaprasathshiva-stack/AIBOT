@@ -1,0 +1,6 @@
+.dev.varsnode_modules/
+.wrangler/
+.dev.vars
+dist/
+coverage/
+worker-configuration.d.ts
