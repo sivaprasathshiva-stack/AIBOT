@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 .dev.varsnode_modules/
 .wrangler/
 .dev.vars
 dist/
 coverage/
 worker-configuration.d.ts
+=======
+node_modules/
+.wrangler/
+.dev.vars
+dist/
+coverage/
+worker-configuration.d.ts
+>>>>>>> 5c9cd90 (Initial MVP bot scaffold)

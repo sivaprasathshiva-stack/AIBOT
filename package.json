@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "ananya-telegram-bot",
   "version": "0.1.0",
@@ -22,3 +23,28 @@
     "wrangler": "^4.11.1"
   }
 }
+=======
+{
+  "name": "ananya-telegram-bot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "dev:remote": "wrangler dev --remote",
+    "deploy": "wrangler deploy",
+    "check": "tsc --noEmit",
+    "cf-typegen": "wrangler types",
+    "webhook:set": "node scripts/set-webhook.mjs",
+    "webhook:delete": "node scripts/delete-webhook.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.8",
+    "grammy": "^1.36.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "wrangler": "^4.11.1"
+  }
+}
+>>>>>>> 5c9cd90 (Initial MVP bot scaffold)
