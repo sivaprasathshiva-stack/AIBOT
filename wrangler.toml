@@ -1,0 +1,9 @@
+name = "ananya-telegram-bot"
+main = "src/index.ts"
+compatibility_date = "2026-04-20"
+
+[vars]
+BOT_NAME = "Ananya"
+DEFAULT_TIMEZONE = "Asia/Kolkata"
+FREE_DAILY_MESSAGE_LIMIT = "50"
+GEMINI_MODEL = "gemini-2.5-flash-lite"
