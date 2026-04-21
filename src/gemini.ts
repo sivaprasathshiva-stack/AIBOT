@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import type { AppConfig } from "./config";
 import { buildSystemPrompt } from "./prompts";
 import type { MessageRecord } from "./db";
@@ -59,6 +60,8 @@ export async function generateReply(input: {
 
   return reply;
 =======
+=======
+>>>>>>> 3540f7e22559535ffa2529479b37bcc3d9775d2d
 import type { AppConfig } from "./config";
 import { buildSystemPrompt } from "./prompts";
 import type { MessageRecord } from "./db";
@@ -118,5 +121,8 @@ export async function generateReply(input: {
   }
 
   return reply;
+<<<<<<< HEAD
 >>>>>>> 5c9cd90 (Initial MVP bot scaffold)
+=======
+>>>>>>> 3540f7e22559535ffa2529479b37bcc3d9775d2d
 }

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Ananya Telegram Bot MVP
 
 This workspace now contains a free-only MVP scaffold for a Telegram bot built on:
@@ -170,6 +171,8 @@ feedback - send product feedback
 - [src/gemini.ts](src/gemini.ts)
 - [src/prompts.ts](src/prompts.ts)
 =======
+=======
+>>>>>>> 3540f7e22559535ffa2529479b37bcc3d9775d2d
 # Ananya Telegram Bot MVP
 
 This workspace now contains a free-only MVP scaffold for a Telegram bot built on:
@@ -340,5 +343,8 @@ feedback - send product feedback
 - [src/db.ts](src/db.ts)
 - [src/gemini.ts](src/gemini.ts)
 - [src/prompts.ts](src/prompts.ts)
+<<<<<<< HEAD
 >>>>>>> 5c9cd90 (Initial MVP bot scaffold)
+=======
+>>>>>>> 3540f7e22559535ffa2529479b37bcc3d9775d2d
 - [supabase/schema.sql](supabase/schema.sql)

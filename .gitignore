@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .dev.varsnode_modules/
 .wrangler/
 .dev.vars
@@ -11,9 +12,15 @@ node_modules/
 =======
 .dev.varsnode_modules/
 >>>>>>> 3540f7e (supabase Credentials)
+=======
+.dev.varsnode_modules/
+>>>>>>> 3540f7e22559535ffa2529479b37bcc3d9775d2d
 .wrangler/
 .dev.vars
 dist/
 coverage/
 worker-configuration.d.ts
+<<<<<<< HEAD
 >>>>>>> 5c9cd90 (Initial MVP bot scaffold)
+=======
+>>>>>>> 3540f7e22559535ffa2529479b37bcc3d9775d2d

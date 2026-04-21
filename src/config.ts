@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 export interface Env {
   TELEGRAM_BOT_TOKEN: string;
   TELEGRAM_WEBHOOK_SECRET?: string;
@@ -43,6 +44,8 @@ export function validateEnv(env: Env): void {
     }
   }
 =======
+=======
+>>>>>>> 3540f7e22559535ffa2529479b37bcc3d9775d2d
 export interface Env {
   TELEGRAM_BOT_TOKEN: string;
   TELEGRAM_WEBHOOK_SECRET?: string;
@@ -87,12 +90,19 @@ export function validateEnv(env: Env): void {
     }
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5c9cd90 (Initial MVP bot scaffold)
 }
 =======
+=======
+>>>>>>> 3540f7e22559535ffa2529479b37bcc3d9775d2d
 }
 
 // Fallback values for local development. These are populated from `.dev.vars` or
 // the workspace for convenience. You can remove these defaults in production.
+<<<<<<< HEAD
 // No local fallback secrets: use Cloudflare secrets or .dev.vars for development.
 >>>>>>> 3540f7e (supabase Credentials)
+=======
+// No local fallback secrets: use Cloudflare secrets or .dev.vars for development.
+>>>>>>> 3540f7e22559535ffa2529479b37bcc3d9775d2d

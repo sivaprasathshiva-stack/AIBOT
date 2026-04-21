@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { buildBot } from "./bot";
 import type { Env } from "./config";
 import { validateEnv } from "./config";
@@ -51,6 +52,8 @@ export default {
     return new Response("Not found", { status: 404 });
   }
 =======
+=======
+>>>>>>> 3540f7e22559535ffa2529479b37bcc3d9775d2d
 import { buildBot } from "./bot";
 import { Bot } from "grammy";
 import type { Env } from "./config";
@@ -103,5 +106,8 @@ export default {
 
     return new Response("Not found", { status: 404 });
   }
+<<<<<<< HEAD
 >>>>>>> 5c9cd90 (Initial MVP bot scaffold)
+=======
+>>>>>>> 3540f7e22559535ffa2529479b37bcc3d9775d2d
 };

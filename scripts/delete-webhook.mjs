@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { existsSync, readFileSync } from "node:fs";
 
 function loadDevVars() {
@@ -48,6 +49,8 @@ const response = await fetch(`https://api.telegram.org/bot${token}/deleteWebhook
 
 const data = await response.json();
 =======
+=======
+>>>>>>> 3540f7e22559535ffa2529479b37bcc3d9775d2d
 import { existsSync, readFileSync } from "node:fs";
 
 function loadDevVars() {
@@ -96,5 +99,8 @@ const response = await fetch(`https://api.telegram.org/bot${token}/deleteWebhook
 });
 
 const data = await response.json();
+<<<<<<< HEAD
 >>>>>>> 5c9cd90 (Initial MVP bot scaffold)
+=======
+>>>>>>> 3540f7e22559535ffa2529479b37bcc3d9775d2d
 console.log(JSON.stringify(data, null, 2));

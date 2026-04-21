@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 create table if not exists public.users (
   id bigint primary key,
   first_name text,
@@ -67,6 +68,8 @@ create trigger daily_usage_set_updated_at
 before update on public.daily_usage
 for each row
 =======
+=======
+>>>>>>> 3540f7e22559535ffa2529479b37bcc3d9775d2d
 create table if not exists public.users (
   id bigint primary key,
   first_name text,
@@ -134,5 +137,8 @@ drop trigger if exists daily_usage_set_updated_at on public.daily_usage;
 create trigger daily_usage_set_updated_at
 before update on public.daily_usage
 for each row
+<<<<<<< HEAD
 >>>>>>> 5c9cd90 (Initial MVP bot scaffold)
+=======
+>>>>>>> 3540f7e22559535ffa2529479b37bcc3d9775d2d
 execute function public.set_updated_at();

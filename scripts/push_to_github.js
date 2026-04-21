@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import fs from 'fs';
 import path from 'path';
 
@@ -98,6 +99,8 @@ async function pushAll() {
 
 pushAll().catch(err => { console.error(err); process.exit(1); });
 =======
+=======
+>>>>>>> 3540f7e22559535ffa2529479b37bcc3d9775d2d
 import fs from 'fs';
 import path from 'path';
 
@@ -196,4 +199,7 @@ async function pushAll() {
 }
 
 pushAll().catch(err => { console.error(err); process.exit(1); });
+<<<<<<< HEAD
 >>>>>>> 3540f7e (supabase Credentials)
+=======
+>>>>>>> 3540f7e22559535ffa2529479b37bcc3d9775d2d

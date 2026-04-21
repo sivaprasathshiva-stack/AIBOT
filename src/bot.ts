@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Bot, Context, InlineKeyboard } from "grammy";
 
 import type { Env } from "./config";
@@ -286,6 +287,8 @@ export function buildBot(env: Env): Bot {
 
   return bot;
 =======
+=======
+>>>>>>> 3540f7e22559535ffa2529479b37bcc3d9775d2d
 import { Bot, Context, InlineKeyboard } from "grammy";
 
 import type { Env } from "./config";
@@ -572,8 +575,12 @@ export async function buildBot(env: Env): Promise<Bot> {
 
   return bot;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5c9cd90 (Initial MVP bot scaffold)
 }
 =======
 }
 >>>>>>> 3540f7e (supabase Credentials)
+=======
+}
+>>>>>>> 3540f7e22559535ffa2529479b37bcc3d9775d2d

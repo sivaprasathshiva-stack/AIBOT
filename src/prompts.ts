@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 export function buildSystemPrompt(botName: string, profileFacts: Record<string, string>): string {
   const memory = Object.keys(profileFacts).length
     ? `Known user facts: ${JSON.stringify(profileFacts)}`
@@ -43,6 +44,8 @@ export const HELP_MESSAGE = [
   "/feedback your message - send product feedback",
   "/settings - show current MVP settings"
 =======
+=======
+>>>>>>> 3540f7e22559535ffa2529479b37bcc3d9775d2d
 export function buildSystemPrompt(botName: string, profileFacts: Record<string, string>): string {
   const memory = Object.keys(profileFacts).length
     ? `Known user facts: ${JSON.stringify(profileFacts)}`
@@ -86,5 +89,8 @@ export const HELP_MESSAGE = [
   "/reset - clear current chat history",
   "/feedback your message - send product feedback",
   "/settings - show current MVP settings"
+<<<<<<< HEAD
 >>>>>>> 5c9cd90 (Initial MVP bot scaffold)
+=======
+>>>>>>> 3540f7e22559535ffa2529479b37bcc3d9775d2d
 ].join("\n");

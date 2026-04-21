@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 name = "ananya-telegram-bot"
 main = "src/index.ts"
 compatibility_date = "2026-04-20"
@@ -13,6 +14,8 @@ SUPABASE_URL = "https://xphwixmfafhgquivmqno.supabase.co"
 APP_URL = "https://<your-worker-domain>"
 TELEGRAM_WEBHOOK_SECRET = "a1b2c3d4e5f60718293a4b5c6d7e8f90"
 =======
+=======
+>>>>>>> 3540f7e22559535ffa2529479b37bcc3d9775d2d
 name = "ananya-telegram-bot"
 main = "src/index.ts"
 compatibility_date = "2026-04-20"
@@ -23,8 +26,11 @@ DEFAULT_TIMEZONE = "Asia/Kolkata"
 FREE_DAILY_MESSAGE_LIMIT = "50"
 GEMINI_MODEL = "gemini-2.5-flash-lite"
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5c9cd90 (Initial MVP bot scaffold)
 =======
+=======
+>>>>>>> 3540f7e22559535ffa2529479b37bcc3d9775d2d
 SUPABASE_URL = "https://xphwixmfafhgquivmqno.supabase.co"
 # Set `APP_URL` to your deployed Worker URL (used by webhook script). Replace after deploy.
 APP_URL = "https://<your-worker-domain>"
@@ -32,4 +38,7 @@ TELEGRAM_WEBHOOK_SECRET = "a1b2c3d4e5f60718293a4b5c6d7e8f90"
 # NOTE: The following entries are convenient for local testing via .dev.vars or when using wrangler vars,
 # but consider using `wrangler secret put` for sensitive values when deploying.
 # Secrets are stored in Cloudflare secrets. Do not store them in this file.
+<<<<<<< HEAD
 >>>>>>> 3540f7e (supabase Credentials)
+=======
+>>>>>>> 3540f7e22559535ffa2529479b37bcc3d9775d2d

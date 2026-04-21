@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 {
   "name": "ananya-telegram-bot",
   "version": "0.1.0",
@@ -24,6 +25,8 @@
   }
 }
 =======
+=======
+>>>>>>> 3540f7e22559535ffa2529479b37bcc3d9775d2d
 {
   "name": "ananya-telegram-bot",
   "version": "0.1.0",
@@ -49,6 +52,9 @@
   }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 5c9cd90 (Initial MVP bot scaffold)
 =======
 >>>>>>> 3540f7e (supabase Credentials)
+=======
+>>>>>>> 3540f7e22559535ffa2529479b37bcc3d9775d2d

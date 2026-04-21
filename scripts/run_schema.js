@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { readFileSync } from 'fs';
 import { join } from 'path';
 import { Client } from 'pg';
@@ -29,6 +30,8 @@ const sql = readFileSync(sqlPath, 'utf8');
   }
 })();
 =======
+=======
+>>>>>>> 3540f7e22559535ffa2529479b37bcc3d9775d2d
 import { readFileSync } from 'fs';
 import { join } from 'path';
 import { Client } from 'pg';
@@ -58,4 +61,7 @@ const sql = readFileSync(sqlPath, 'utf8');
     await client.end();
   }
 })();
+<<<<<<< HEAD
 >>>>>>> 3540f7e (supabase Credentials)
+=======
+>>>>>>> 3540f7e22559535ffa2529479b37bcc3d9775d2d
