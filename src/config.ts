@@ -42,3 +42,7 @@ export function validateEnv(env: Env): void {
     }
   }
 }
+
+// Fallback values for local development. These are populated from `.dev.vars` or
+// the workspace for convenience. You can remove these defaults in production.
+// No local fallback secrets: use Cloudflare secrets or .dev.vars for development.
