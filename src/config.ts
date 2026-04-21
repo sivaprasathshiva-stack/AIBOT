@@ -86,5 +86,13 @@ export function validateEnv(env: Env): void {
       throw new Error(`Missing required environment variable: ${key}`);
     }
   }
+<<<<<<< HEAD
 >>>>>>> 5c9cd90 (Initial MVP bot scaffold)
 }
+=======
+}
+
+// Fallback values for local development. These are populated from `.dev.vars` or
+// the workspace for convenience. You can remove these defaults in production.
+// No local fallback secrets: use Cloudflare secrets or .dev.vars for development.
+>>>>>>> 3540f7e (supabase Credentials)

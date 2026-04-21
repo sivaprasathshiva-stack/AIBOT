@@ -52,15 +52,16 @@ export default {
   }
 =======
 import { buildBot } from "./bot";
+import { Bot } from "grammy";
 import type { Env } from "./config";
 import { validateEnv } from "./config";
 
 let cachedToken: string | null = null;
-let cachedBot: ReturnType<typeof buildBot> | null = null;
+let cachedBot: Bot | null = null;
 
-function getBot(env: Env) {
+async function getBot(env: Env): Promise<Bot> {
   if (!cachedBot || cachedToken !== env.TELEGRAM_BOT_TOKEN) {
-    cachedBot = buildBot(env);
+    cachedBot = await buildBot(env);
     cachedToken = env.TELEGRAM_BOT_TOKEN;
   }
 
@@ -95,7 +96,7 @@ export default {
       }
 
       const update = await request.json();
-      const bot = getBot(env);
+      const bot = await getBot(env);
       await bot.handleUpdate(update);
       return new Response("OK");
     }

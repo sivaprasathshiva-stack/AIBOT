@@ -389,7 +389,7 @@ function getFrom(ctx: Context) {
   return ctx.from;
 }
 
-export function buildBot(env: Env): Bot {
+export async function buildBot(env: Env): Promise<Bot> {
   const config = getConfig(env);
   const db = createDatabase(env);
   const bot = new Bot(env.TELEGRAM_BOT_TOKEN);
@@ -419,17 +419,13 @@ export function buildBot(env: Env): Bot {
       return;
     }
 
-    await ensureUser(db, getFrom(ctx));
-    await ctx.reply(HELP_MESSAGE);
-      return;
-  bot.command("help", async (ctx) => {
-    if (!(await requirePrivateChat(ctx))) {
+    const user = await ensureUser(db, getFrom(ctx));
+    if (!(await ensureEligibleUser(ctx, user, config.botName))) {
       return;
     }
+
     await ctx.reply(settingsMessage(config.freeDailyMessageLimit, config.botName));
-    await ensureUser(db, getFrom(ctx));
     await ctx.reply(HELP_MESSAGE);
-  });
   });
 
   bot.command("stats", async (ctx) => {
@@ -571,6 +567,13 @@ export function buildBot(env: Env): Bot {
     }
   });
 
+  // Initialize bot (fetch bot info) so grammy won't throw on first update.
+  await bot.init();
+
   return bot;
+<<<<<<< HEAD
 >>>>>>> 5c9cd90 (Initial MVP bot scaffold)
 }
+=======
+}
+>>>>>>> 3540f7e (supabase Credentials)
